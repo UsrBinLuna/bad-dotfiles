@@ -7,19 +7,11 @@
 ;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
 ;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
 ;
-;
-;   To learn more about how to configure Polybar
-;   go to https://github.com/polybar/polybar
-;
-;   The README contains a lot of information
-;
 ;==========================================================
 
 [colors]
-;background = ${xrdb:color0:#222}
 background = #3b4252
 background-alt = #45666a
-;foreground = ${xrdb:color7:#222}
 foreground = #d8dee9
 foreground-alt = #bdbdbd
 primary = #5e81ac
@@ -69,7 +61,7 @@ radius = 10.0
 fixed-center = false
 
 
-modules-left =
+modules-left = cpu temperature 
 modules-center = xwindow
 modules-right = battery date
 
@@ -226,8 +218,8 @@ type = internal/cpu
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #f90000
-label = %percentage:2%%
+format-underline = #45666a
+label = CPU %percentage:2%%
 
 [module/memory]
 type = internal/memory
@@ -287,7 +279,7 @@ time-alt = %H:%M:%S
 
 format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #0a6cf5
+format-underline = #45666a
 
 label = %date% %time%
 
@@ -352,13 +344,13 @@ battery = BAT0
 adapter = ADP1
 full-at = 98
 
-format-charging = <animation-charging> <label-charging>
-format-charging-underline = #ffb52a
+format-charging = BAT^ <label-charging>
+format-charging-underline = #45666a
 
-format-discharging = <animation-discharging> <label-discharging>
+format-discharging = BATv <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
 
-format-full-prefix = " "
+format-full-prefix = "BAT "
 format-full-prefix-foreground = ${colors.foreground-alt}
 format-full-underline = ${self.format-charging-underline}
 
@@ -382,15 +374,15 @@ animation-discharging-framerate = 750
 [module/temperature]
 type = internal/temperature
 thermal-zone = 0
-warn-temperature = 60
+warn-temperature = 75
 
 format = <ramp> <label>
-format-underline = #f50a4d
+format-underline = #45666a
 format-warn = <ramp> <label-warn>
 format-warn-underline = ${self.format-underline}
 
-label = %temperature-c%
-label-warn = %temperature-c%
+label = TEMP %temperature-c%
+label-warn = TEMP-WARN %temperature-c%
 label-warn-foreground = ${colors.secondary}
 
 ramp-0 = 
