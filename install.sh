@@ -1,0 +1,10 @@
+#!/bin/sh
+echo "Creating config directories..."
+mkdir ~/.config/picom ~/.config/bspwm ~/.config/sxhkd ~/.config/kitty ~/.config/polybar
+echo
+echo "Copying files..."
+cp -r ./kitty/* ~/.config/kitty/
+cp -r ./picom/* ~/.config/picom/
+cp -r ./bspwm/* ~/.config/bspwm/
+cp -r ./sxhkd/* ~/.config/sxhkd/
+cp -r ./polybar/* ~/.config/polybar/
