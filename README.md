@@ -5,6 +5,6 @@
 # dependencies
 On Arch-based distros
 ```
-sudo pacman -S bspwm sxhkd rofi
+sudo pacman -S bspwm sxhkd rofi kitty
 yay -S xbacklight-ctl-git picom-jonaburg-git
 ```
