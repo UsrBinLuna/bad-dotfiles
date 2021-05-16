@@ -17,12 +17,12 @@
 
 [colors]
 ;background = ${xrdb:color0:#222}
-background = #213616
-background-alt = #4C9A26
+background = #3b4252
+background-alt = #45666a
 ;foreground = ${xrdb:color7:#222}
-foreground = #dfdfdf
-foreground-alt = #555
-primary = #12cbaf
+foreground = #d8dee9
+foreground-alt = #bdbdbd
+primary = #5e81ac
 secondary = #e60053
 alert = #bd2c40
 
