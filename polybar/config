@@ -10,8 +10,8 @@
 ;==========================================================
 
 [colors]
-background = #3b4252
-background-alt = #45666a
+background = #6f4f95
+background-alt = #422658
 foreground = #d8dee9
 foreground-alt = #bdbdbd
 primary = #5e81ac
@@ -61,9 +61,9 @@ radius = 10.0
 fixed-center = false
 
 
-modules-left = cpu temperature 
+modules-left = cpu 
 modules-center = xwindow
-modules-right = battery date
+modules-right = date
 
 
 background = ${colors.background}
@@ -101,7 +101,7 @@ fixed-center = false
 
 modules-left =
 modules-center = 
-modules-right = xbacklight pulseaudio
+modules-right = battery xbacklight pulseaudio
 
 
 background = ${colors.background}
@@ -159,19 +159,19 @@ label-unmounted-foreground = ${colors.foreground-alt}
 [module/bspwm]
 type = internal/bspwm
 
-label-focused = %index%
+label-focused = •
 label-focused-background = ${colors.background-alt}
-label-focused-underline= ${colors.primary}
+label-focused-underline= #f0c1f0
 label-focused-padding = 2
 
-label-occupied = %index%
+label-occupied = •
 label-occupied-padding = 2
 
-label-urgent = %index%!
+label-urgent = •
 label-urgent-background = ${colors.alert}
 label-urgent-padding = 2
 
-label-empty = %index%
+label-empty = •
 label-empty-foreground = ${colors.foreground-alt}
 label-empty-padding = 2
 
@@ -218,7 +218,7 @@ type = internal/cpu
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #45666a
+format-underline = #f0c1f0
 label = CPU %percentage:2%%
 
 [module/memory]
@@ -279,7 +279,7 @@ time-alt = %H:%M:%S
 
 format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #45666a
+format-underline = #f0c1f0
 
 label = %date% %time%
 
@@ -345,7 +345,7 @@ adapter = ADP1
 full-at = 98
 
 format-charging = BAT^ <label-charging>
-format-charging-underline = #45666a
+format-charging-underline = #f0c1f0
 
 format-discharging = BATv <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
@@ -377,7 +377,7 @@ thermal-zone = 0
 warn-temperature = 75
 
 format = <ramp> <label>
-format-underline = #45666a
+format-underline = #f0c1f0
 format-warn = <ramp> <label-warn>
 format-warn-underline = ${self.format-underline}
 
