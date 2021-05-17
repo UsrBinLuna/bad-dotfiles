@@ -1,6 +1,6 @@
 # bad dotfiles
 
-![screenshot](a "screenshot")
+![screenshot](https://raw.githubusercontent.com/rogerpanza/bad-dotfiles/main/screenshot.png "screenshot")
 
 # dependencies
 On Arch-based distros
