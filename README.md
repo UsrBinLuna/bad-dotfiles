@@ -5,6 +5,6 @@
 # dependencies
 On Arch-based distros
 ```
-sudo pacman -S bspwm sxhkd rofi kitty ttf-font-awesome 
-yay -S xbacklight-ctl-git picom-jonaburg-git
+- `sudo pacman -S bspwm sxhkd rofi kitty ttf-font-awesome xmonad` 
+- `yay -S xbacklight-ctl-git picom-jonaburg-git xmonad-contrib`
 ```
