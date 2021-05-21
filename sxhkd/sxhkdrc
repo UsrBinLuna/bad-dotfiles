@@ -133,3 +133,6 @@ XF86AudioMute
 # screenshot
 super + u
         spectacle
+
+XF86PowerDown
+        sudo pm-suspend

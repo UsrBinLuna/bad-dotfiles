@@ -1,0 +1,5 @@
+polybar|notice:  Parsing config file: /home/matteo/.config/polybar/config
+polybar|error: Disabling module "bspwm" (reason: Failed to connect to socket (reason: Connection refused))
+polybar|notice:  Loaded font "misc fixed:pixelsize=10" (name=DejaVu Sans, offset=1, file=/usr/share/fonts/TTF/DejaVuSans.ttf)
+polybar|notice:  Loaded font "unifont:fontformat=truetype:size=8:antialias=false" (name=DejaVu Sans, offset=0, file=/usr/share/fonts/TTF/DejaVuSans.ttf)
+polybar|notice:  Loaded font "siji:pixelsize=10" (name=DejaVu Sans, offset=1, file=/usr/share/fonts/TTF/DejaVuSans.ttf)
