@@ -10,7 +10,7 @@ bspwm + polybar
 - `picom - compositor, for blur and transparency`
 - `xmonad - secondary window manager i am still configuring`
 - `kitty - main terminal, not using alacritty cause it doesnt have tabs`
-- `lterm - a small terminal im developing, i dont use it that much`
+- `lterm - a small terminal im developing, i dont use it that much (not really configurable unless you edit the source code)` [lterm github link](https://github.com/rogerpanza/lterm)
 
 
 ---
