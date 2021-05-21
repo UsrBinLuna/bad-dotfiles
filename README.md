@@ -5,6 +5,7 @@ bspwm + polybar
 ---
 - `bspwm - my main window manager, uses polybar`
 - `polybar - status bar/taskbar i use in bspwm`
+- `neovim - text editor, config stolen from siduck76`
 - `rofi - program launcher`
 - `picom - compositor, for blur and transparency`
 - `xmonad - secondary window manager i am still configuring`
