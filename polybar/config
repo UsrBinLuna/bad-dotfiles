@@ -10,9 +10,9 @@
 ;==========================================================
 
 [colors]
-background = #6f4f95
-background-alt = #422658
-foreground = #d8dee9
+background = #27a8e8
+background-alt = #27e8e8
+foreground = #f0f0f0
 foreground-alt = #bdbdbd
 primary = #5e81ac
 secondary = #e60053
@@ -161,7 +161,7 @@ type = internal/bspwm
 
 label-focused = •
 label-focused-background = ${colors.background-alt}
-label-focused-underline= #f0c1f0
+label-focused-underline= #fffff0
 label-focused-padding = 2
 
 label-occupied = •
@@ -240,7 +240,7 @@ bar-indicator-foreground = #fff
 bar-indicator-font = 2
 bar-fill = ─
 bar-fill-font = 2
-bar-fill-foreground = #9f78e1
+bar-fill-foreground = #fffff0
 bar-empty = ─
 bar-empty-font = 2
 bar-empty-foreground = ${colors.foreground-alt}
@@ -255,7 +255,7 @@ type = internal/cpu
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #f0c1f0
+format-underline = #fffff0
 label = CPU %percentage:2%%
 
 [module/memory]
@@ -316,7 +316,7 @@ time-alt = %H:%M:%S
 
 format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #f0c1f0
+format-underline = #fffff0
 
 label = %date% %time%
 
@@ -382,7 +382,7 @@ adapter = ADP1
 full-at = 98
 
 format-charging = BAT^ <label-charging>
-format-charging-underline = #f0c1f0
+format-charging-underline = #fffff0
 
 format-discharging = BAT <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}

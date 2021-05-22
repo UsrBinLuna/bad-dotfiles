@@ -136,3 +136,9 @@ super + u
 
 XF86PowerDown
         sudo pm-suspend
+
+super + alt + 1
+        ~/.config/polybar/purple.sh
+
+super + alt + 2
+        ~/.config/polybar/blue.sh
