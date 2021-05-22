@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "Creating config directories..."
-mkdir ~/.config/picom ~/.config/bspwm ~/.config/sxhkd ~/.config/kitty ~/.config/polybar ~/.xmonad ~/.config/nvim
+mkdir ~/.config/picom ~/.config/bspwm ~/.config/sxhkd ~/.config/kitty ~/.config/polybar ~/.xmonad ~/.config/nvim ~/Downloads
 echo
 echo "Copying files..."
 cp -r ./kitty/* ~/.config/kitty/
