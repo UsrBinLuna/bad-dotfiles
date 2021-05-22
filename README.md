@@ -3,6 +3,7 @@
 bspwm + polybar
 ![screenshot](https://raw.githubusercontent.com/rogerpanza/bad-dotfiles/main/screenshot.png "screenshot")
 ![2nd screenshot](https://raw.githubusercontent.com/rogerpanza/bad-dotfiles/main/screenshot2.png "2nd screenshot")
+---
 Use `super + alt + 1/2` to switch between colorschemes
 ---
 - `bspwm - my main window manager, uses polybar`
