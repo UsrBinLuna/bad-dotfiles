@@ -1,8 +1,8 @@
 
 
 bspwm + polybar
-![screenshot](https://raw.githubusercontent.com/rogerpanza/bad-dotfiles/main/screenshot.png "screenshot")
-![2nd screenshot](https://raw.githubusercontent.com/rogerpanza/bad-dotfiles/main/screenshot2.png "2nd screenshot")
+-- ![screenshot](https://raw.githubusercontent.com/rogerpanza/bad-dotfiles/main/screenshot.png "screenshot")
+-- ![2nd screenshot](https://raw.githubusercontent.com/rogerpanza/bad-dotfiles/main/screenshot2.png "2nd screenshot")
 ---
 - Use `super + alt + 1/2/3/4` to switch between colorschemes
 ---
