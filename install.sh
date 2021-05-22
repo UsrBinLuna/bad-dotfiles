@@ -11,7 +11,7 @@ cp -r ./sxhkd/* ~/.config/sxhkd/
 cp -r ./polybar/* ~/.config/polybar/
 cp -r ./xmonad/* ~/.xmonad/
 echo "Copying wallpapers to ~/Downloads"
-cp Ina_Bday2021_1440.png ~/Downloads/
-cp city-bg.png ~/Downloads/
-cp 1110174.png ~/Downloads/
-cp 1132747.png ~/Downloads/
+cp wallpapers/Ina_Bday2021_1440.png ~/Downloads/
+cp wallpapers/city-bg.png ~/Downloads/
+cp wallpapers/1110174.png ~/Downloads/
+cp wallpapers/1132747.png ~/Downloads/
