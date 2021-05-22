@@ -19,12 +19,12 @@ bspwm + polybar
 ---
 # dependencies
 bspwm
-arch based distros
+- arch based distros
 1. `sudo pacman -S bspwm sxhkd rofi kitty ttf-font-awesome polybar xmonad` 
 2. `yay -S xbacklight-ctl-git picom-jonaburg-git nerd-fonts-complete` 
 
 xmonad
-arch based distros
+- arch based distros
 1. `sudo pacman -S xmonad`
 2. `yay -S xmonad-contrib`
 
