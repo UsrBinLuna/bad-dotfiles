@@ -10,6 +10,6 @@ cp -r ./bspwm/* ~/.config/bspwm/
 cp -r ./sxhkd/* ~/.config/sxhkd/
 cp -r ./polybar/* ~/.config/polybar/
 cp -r ./xmonad/* ~/.xmonad/
-echo "Copyins wallpapers to ~/Downloads"
+echo "Copying wallpapers to ~/Downloads"
 cp Ina_Bday2021_1440.png ~/Downloads/
 cp city-bg.png ~/Downloads/
