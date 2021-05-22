@@ -10,8 +10,8 @@
 ;==========================================================
 
 [colors]
-background = #27a8e8
-background-alt = #27e8e8
+background = #b09697
+background-alt = #bf8f91
 foreground = #f0f0f0
 foreground-alt = #bdbdbd
 primary = #5e81ac

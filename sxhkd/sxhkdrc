@@ -148,3 +148,6 @@ super + alt + 3
 
 super + alt + 4
         ~/.config/polybar/4.sh
+
+super + alt + 5
+        ~/.config/polybar/5.sh
