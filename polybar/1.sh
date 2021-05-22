@@ -2,7 +2,7 @@
 
 # Terminate already running bar instances
 killall -q polybar
-cp ~/.config/polybar/blue ~/.config/polybar/config
+cp ~/.config/polybar/1 ~/.config/polybar/config
 # If all your bars have ipc enabled, you can also use 
 # polybar-msg cmd quit
 
@@ -11,6 +11,5 @@ echo "---" | tee -a /tmp/polybar1.log /tmp/polybar2.log
 polybar left >>/tmp/polybar1.log 2>&1 & disown
 polybar center >>/tmp/polybar1.log 2>&1 & disown
 polybar right >>/tmp/polybar1.log 2>&1 & disown
-feh --bg-fill ~/Downloads/Ina_Bday2021_1440.png
-
+feh --bg-fill ~/Downloads/city-bg.png
 echo "Bars launched..."

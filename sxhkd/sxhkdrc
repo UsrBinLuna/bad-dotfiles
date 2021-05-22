@@ -138,7 +138,10 @@ XF86PowerDown
         sudo pm-suspend
 
 super + alt + 1
-        ~/.config/polybar/purple.sh
+        ~/.config/polybar/1.sh
 
 super + alt + 2
-        ~/.config/polybar/blue.sh
+        ~/.config/polybar/2.sh
+
+super + alt + 3
+        ~/.config/polybar/3.sh
