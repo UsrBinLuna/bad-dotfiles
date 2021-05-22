@@ -14,3 +14,4 @@ echo "Copying wallpapers to ~/Downloads"
 cp Ina_Bday2021_1440.png ~/Downloads/
 cp city-bg.png ~/Downloads/
 cp 1110174.png ~/Downloads/
+cp 1132747.png ~/Downloads/
