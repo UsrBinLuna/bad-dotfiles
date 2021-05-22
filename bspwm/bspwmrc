@@ -30,4 +30,4 @@ bspc config top_padding 25
 bspc config focused_border_color "#f5cde3"
 bspc config normal_border_color "#a76792"
 
-feh --bg-fill ~/Downloads/city-bg.png
+feh --bg-fill ~/Downloads/Ina_Bday2021_1440.png

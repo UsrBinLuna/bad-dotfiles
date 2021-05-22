@@ -2,7 +2,7 @@
 
 # Terminate already running bar instances
 killall -q polybar
-cp ~/.config/polybar/purple ~/.config/polybar/config
+cp ~/.config/polybar/blue ~/.config/polybar/config
 # If all your bars have ipc enabled, you can also use 
 # polybar-msg cmd quit
 
