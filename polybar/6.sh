@@ -11,6 +11,6 @@ echo "---" | tee -a /tmp/polybar1.log /tmp/polybar2.log
 polybar left >>/tmp/polybar1.log 2>&1 & disown
 polybar center >>/tmp/polybar1.log 2>&1 & disown
 polybar right >>/tmp/polybar1.log 2>&1 & disown
-feh --bg-fill ~/wallpapers/1103779.png
+feh --bg-fill ~/wallpapers/1114913.jpg
 
 echo "Bars launched..."

@@ -132,7 +132,7 @@ XF86AudioMute
 
 # screenshot
 super + u
-        spectacle
+        scrot ~/Pictures/Screenshots/Screenshot_$(date +%d-%m-%Y__%H-%M).png -s && notify-send "Screenshot saved as Screenshot_$(date +%d-%m-%Y__%H-%M).png"
 
 XF86PowerDown
         sudo pm-suspend

@@ -24,17 +24,10 @@ bspc rule -a Gimp desktop='^8' state=tiling follow=on
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
+bspc rule -a "osu!.exe" state=floating
 bspc config top_padding 25
 
-# border colors 
 bspc config focused_border_color "#f5cde3"
 bspc config normal_border_color "#a76792"
 
 feh --bg-fill ~/Downloads/1130518.png
-
-# make windows start in a specific workspace
-bspc rule -a Firefox desktop='^1' follow=on
-bspc rule -a kitty desktop='^2' follow=on
-bspc rule -a Brave-browser desktop='^3' follow=on
-bspc rule -a discord desktop='^4' follow=on
-
